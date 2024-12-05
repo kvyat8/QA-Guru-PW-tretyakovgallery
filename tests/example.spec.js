@@ -22,7 +22,9 @@ test('Несколько поисков из хедера', async ({ page }) => 
 
   await pm.header.openSearchPopup();
   await pm.searchPopup.searchSomething(query)
+
   await expect(pm.basePage.getUrl()).toContain(encodeURIComponent(query));
+  await expect(pm.searchPage.firstSearchResult).toContainText(query);
   await expect(pm.searchPage.searchInput).toHaveValue(query);
 
 });
