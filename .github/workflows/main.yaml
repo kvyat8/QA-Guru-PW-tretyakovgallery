@@ -1,6 +1,5 @@
 name: Playwright Tests
-
-  on:
+on:
     workflow_dispatch:
     schedule:
       - cron: '0 0 * * *'  # Каждый день в полночь
