@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","9173","Несколько поисков из хедера","chromium","Wed Dec 25 01:47:07 GMT 2024","failed","Wed Dec 25 01:47:16 GMT 2024","","example.spec.js","",""
